@@ -1,0 +1,39 @@
+{
+  "rootDir": "./app",
+  "htmlDir": "./",
+  "cssDir": "./css",
+  "jsDir": "./js",
+  "resDir": "./res",
+  "distDir": "./dist",
+  "modules": [
+    {
+      "name": "minify",
+      "options": {
+        "buildTasks": [
+          "css",
+          "js",
+          "html"
+        ]
+      }
+    },
+    {
+      "name": "imagemin"
+    },
+    {
+      "name": "autoprefixer"
+    },
+    {
+      "name": "server",
+      "options": {}
+    },
+    {
+      "name": "concat",
+      "options": {}
+    },
+    {
+      "name": "sass",
+      "options": {}
+    }
+  ],
+  "external": []
+}

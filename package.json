@@ -1,0 +1,11 @@
+{
+  "name": "windwo-mover-site",
+  "version": "1.0.0",
+  "main": "index.js",
+  "dependencies": {
+    "create-gulp-project": "2.2.0"
+  },
+  "devDependencies": {},
+  "license": "ISC",
+  "author": "Quentin Wendegass"
+}
