@@ -2,20 +2,44 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
     <title>Window Mover</title>
 
     <!-- Stylesheet -->
     <link rel="stylesheet" href="css/main.min.css">
+
+    <!-- Favicon and apple-touch-icon for iphone -->
+    <link rel="shortcut icon" href="favicon.ico">
+    <link rel="apple-touch-icon" sizes="152x152" href="apple-touch-icon-152x152.png">
 </head>
 <body>
 
-<!-- The canvas wrapper is used to check for the mouse events that are aligning the window-->
-<div class="canvas-wrapper">
+<!-- Lettering and logo-->
+<div class="header">
+    <h1>Window Mover</h1>
+    <img src="logo.svg">
+</div>
 
-    <!-- Canvas background is used to show the background image -->
-    <div class="canvas-background">
-        <canvas id="demo-canvas" height="500px"></canvas>
+<div class="content">
+    <!-- The canvas wrapper is used to check for the mouse events that are aligning the window-->
+    <div class="canvas-wrapper">
+        <h3>Try it out!</h3>
+
+        <!-- Canvas background is used to show the background image -->
+        <div class="canvas-background">
+            <canvas id="demo-canvas" height="500px"></canvas>
+        </div>
     </div>
+
+    <p>Autmatic resize windows on your mac by dragging them to the edge of your screen</p>
+    <a href="window_mover_v1.dmg" download>Download Now</a>
+</div>
+
+<!-- Privacy Policy Link -->
+<div class="footer">
+    <span>
+        <a href="https://wendegass.com">© Copyright Quentin Wendegass</a> | <a href="privacy.html">Privacy Policy</a></span>
 </div>
 
 <!-- Script for the canvas window mover demo -->

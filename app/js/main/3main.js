@@ -11,7 +11,7 @@ let canvas = document.getElementById("demo-canvas");
 canvas.width = canvas.parentElement.offsetWidth;
 
 // Create the new screen that takes the canvas
-new Screen(canvas);
+const screen = new Screen(canvas);
 
 // Change the canvas width to 70% when the window gets resized
 window.onresize = function() {

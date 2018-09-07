@@ -1,0 +1,15 @@
+{
+  "title": "Window Mover",
+  "icon": "logo.svg",
+  "background-color": "#DFDFDF",
+  "contents": [
+    { "x": 400, "y": 150, "type": "link", "path": "/Applications" },
+    { "x": 200, "y": 150, "type": "file", "path": "WindowMover.app" }
+  ],
+  "window": {
+    "size": {
+      "width": 600,
+      "height": 300
+    }
+  }
+}

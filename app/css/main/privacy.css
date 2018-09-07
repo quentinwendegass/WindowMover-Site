@@ -1,0 +1,12 @@
+#privacy-policy {
+  padding: 20px;
+}
+
+#privacy-policy h1 {
+  text-align: center;
+}
+
+#privacy-policy h1, #privacy-policy h2, #privacy-policy p, #privacy-policy li {
+  font-family: "Roboto", sans-serif;
+  color: #3c3f41;
+}
